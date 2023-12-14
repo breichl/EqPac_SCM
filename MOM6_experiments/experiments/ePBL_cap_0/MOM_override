@@ -1,0 +1,103 @@
+! Blank file in which we can put "overrides" for parameters
+#override SPLIT = False
+#override DYNAMIC_SURFACE_PRESSURE = False
+#override THERMO_SPANS_COUPLING = False
+#override DTBT_RESET_PERIOD = 900.0
+#override FRAZIL = False
+#override DO_GEOTHERMAL = False
+#override MIN_SALINITY = 0.0
+#override REENTRANT_Y = True
+#override REENTRANT_X = True
+#override NIGLOBAL = 3
+#override NJGLOBAL = 3
+#override NIHALO = 2
+#override NJHALO = 2
+#override TRIPOLAR_N = False
+#override TOPO_EDITS_FILE = ""
+#override CHANNEL_CONFIG = "none"
+#override ROTATION = "betaplane"
+#override BETA = 0.0
+
+#override READ_TIDEAMP = False
+#override INT_TIDE_DISSIPATION = False
+
+!Overrides to shortwave to make model work consistent w/ Whit et al. 2022
+#override VAR_PEN_SW = False
+#override PEN_SW_FRAC = 1.0
+#override EXP_OPACITY_SCHEME = "DOUBLE_EXP"
+#override PEN_SW_NBANDS = 2
+!#override PEN_SW_SCALE = 0.35
+#override PEN_SW_SCALE = 2.0
+#override PEN_SW_SCALE_2ND = 23.0
+#override SW_1ST_EXP_RATIO = 0.58
+
+#override THICKNESSDIFFUSE = False
+#override RESOLN_SCALED_KH = False
+#override RESOLN_SCALED_KHTH = False
+#override HENYEY_IGW_BACKGROUND = False
+!#override KAPPA_BUOY_SCALE_COEF = 100.0
+#override LAPLACIAN = False
+#override SMAGORINSKY_AH = False
+#override USE_MEKE = False
+#override USE_VARIABLE_MIXING = False
+#override MIXEDLAYER_RESTRAT = False
+#override CHANNEL_DRAG = False
+
+!Extra flags needed
+Z_INIT_HOMOGENIZE = True
+
+HOMOGENIZE_FORCINGS = True
+
+MLD_EN_VALS = 10., 100., 1000.
+
+#override EQN_OF_STATE = "LINEAR"
+#override DRHO_DT = -0.2976
+#override DRHO_DS = 0.7386
+
+#override REGRIDDING_COORDINATE_MODE = "Z*"
+#override TOPO_CONFIG = "flat"
+#override RHO_0 = 1024.
+#override C_P = 3985.0
+
+UPWIND_1ST_CONTINUITY = True
+#override MAXTRUNC = 1
+
+#override REMAPPING_SCHEME = PPM_H4
+#override REMAP_UV_USING_OLD_ALG = False
+#override THICKNESSDIFFUSE_FIRST = False
+#override USE_PSRUF_IN_EOS = True
+#override REMAPPING_2018_ANSWERS = False
+#override DEFAULT_2018_ANSWERS = False
+#override SURFACE_2018_ANSWERS = False
+#override PARALLEL_RESTARTFILES = False 
+#override DO_IDEAL_AGE = False
+#override THICKNESS_CONFIG = "coord"
+#override NUM_DIAG_COORDS = 1 
+#override DIAG_COORDS = "z Z ZSTAR"
+
+#override USE_STORED_SLOPES = False
+#override KHTR_SLOPE_CFF = 0.0
+#override SET_VISC_2018_ANSWERS = False
+#override CDRAG = 0.000
+#override CORIOLIS_EN_DIS = True
+#override CORIOLIS_SCHEME = "SADOURNY75_ENERGY"
+#override BIHARMONIC = False
+
+#override KAPPA_SHEAR_ELIM_MASSLESS = False
+
+#override INIT_LAYERS_FROM_Z_FILE = True
+#override Z_INIT_FILE_PTEMP_VAR = "temp"
+#override Z_INIT_FILE_SALT_VAR = "salt"
+#override SAVE_INITIAL_CONDS = True
+#override VELOCITY_CONFIG = "file"
+COLUMN_FORCING = True
+EXTERNAL_SCM_TEMP_TENDENCY = True
+EXTERNAL_SCM_XCURRENT_TENDENCY = True
+EXTERNAL_SCM_YCURRENT_TENDENCY = True
+#override F_0 = 0.0 !7.6096e-06
+#override TEMP_Z_INIT_FILE = "DW_init.nc"
+#override SALT_Z_INIT_FILE = "DW_init.nc"
+#override VELOCITY_FILE = "DW_init.nc"
+EXTERNAL_SCM_TEMP_FILENAME = "INPUT/DW_tend_without_solar.nc"
+EXTERNAL_SCM_XCURRENT_FILENAME = "INPUT/DW_tend_without_solar.nc"
+EXTERNAL_SCM_YCURRENT_FILENAME = "INPUT/DW_tend_without_solar.nc"

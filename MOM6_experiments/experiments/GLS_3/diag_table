@@ -1,0 +1,84 @@
+OM4_SIS2_cgrid_05
+1958 1 1 0 0 0
+
+"ocean_hourly_GLS_3", 1, "hours",   1, "days", "time"
+
+# "ocean_model",   "thkcello",    "thkcello",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+ "ocean_model",   "uo",          "uo",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "vo",          "vo",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "umo",         "umo",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "vmo",         "vmo",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+ "ocean_model",   "thetao",      "thetao",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "SST",      "SST",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "SSU",      "SSU",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "SSV",      "SSV",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "SSS",      "SSS",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "SSH",      "SSH",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "thetaoga",      "thetaoga",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "so",          "so",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "rhopot0",   "rhopot0",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "rsdo",      "rsdo",         "ocean_hourly_GLS_3",        "all", "mean", "none",2
+# "ocean_model",   "Kd_interface","Kd_interface", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "Kv_shear","Kv_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "TKE_shear","TKE_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "Kd_shear","Kd_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "Kd_BBL","Kd_BBL", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "N2_shear","N2_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "S2_shear","S2_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "P_shear","P_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "G_shear","G_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "epsilon_shear","epsilon_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "Ld_shear","Ld_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "elliptic_source_shear","elliptic_source_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "shear_source_shear","shear_source_shear", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model","GOTM_L","GOTM_L","ocean_hourly_GLS_3","all", "mean", "none",2
+# "ocean_model","GOTM_TKE","GOTM_TKE","ocean_hourly_GLS_3","all", "mean", "none",2
+# "ocean_model","GOTM_KM","GOTM_KM","ocean_hourly_GLS_3","all", "mean", "none",2
+# "ocean_model","GOTM_KH","GOTM_KH","ocean_hourly_GLS_3","all", "mean", "none",2
+# "ocean_model","GOTM_EPS","GOTM_EPS","ocean_hourly_GLS_3","all", "mean", "none",2
+# "ocean_model","GOTM_P","GOTM_P","ocean_hourly_GLS_3","all", "mean", "none",2
+# "ocean_model","GOTM_B","GOTM_B","ocean_hourly_GLS_3","all", "mean", "none",2
+# "ocean_model","GOTM_N2","GOTM_N2","ocean_hourly_GLS_3","all", "mean", "none",2
+# "ocean_model","GOTM_S2","GOTM_S2","ocean_hourly_GLS_3","all", "mean", "none",2
+# "ocean_model","KPP_NLtransport_heat","KPP_NLtransport_heat","ocean_hourly_GLS_3","all", "mean", "none",2
+# "ocean_model","KPP_NLT_dTdt","KPP_NLT_dTdt","ocean_hourly_GLS_3","all", "mean", "none",2
+
+
+# "ocean_model",   "T_tendency_vert_remap", "T_tendency_vert_remap", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "T_tendency", "T_tendency", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "T_adx", "T_adx", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "T_ady", "T_ady", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "T_diffx", "T_diffx", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "T_diffy", "T_diffy", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+ "ocean_model",   "Tflx_dia_diff", "Tflx_dia_diff", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "Bflx_dia_diff", "Bflx_dia_diff", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+
+# "ocean_model",   "CAu", "CAu", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "CAv", "CAv", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "PFu", "PFu", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "PFv", "PFv", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "diffu", "diffu", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "diffv", "diffv", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "du_dt_visc", "du_dt_visc", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "dv_dt_visc", "dv_dt_visc", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+
+# "ocean_model",   "taux", "taux", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "tauy", "tauy", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "net_heat_coupler", "net_heat_coupler", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "salt_flux","salt_flux", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "salt_flux_in","salt_flux_in", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "SW_pen", "SW_pen", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "MSTAR", "MSTAR", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "MSTAR_LT", "MSTAR_LT", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "ePBL_h_ML", "ePBL_h_ML", "ocean_hourly_GLS_3","all","mean","none",2
+# "ocean_model",   "BF0", "BF0", "ocean_hourly_GLS_3","all","mean","none",2
+# "ocean_model",   "BF0_penSW", "BF0_penSW", "ocean_hourly_GLS_3","all","mean","none",2
+# "ocean_model",   "MLD_003", "MLD_003", "ocean_hourly_GLS_3","all","mean","none",2
+# "ocean_model",   "MLD_EN1", "MLD_EN1", "ocean_hourly_GLS_3","all","mean","none",2
+# "ocean_model",   "MLD_EN2", "MLD_EN2", "ocean_hourly_GLS_3","all","mean","none",2
+# "ocean_model",   "MLD_EN3", "MLD_EN3", "ocean_hourly_GLS_3","all","mean","none",2
+
+# "ocean_model",   "dU_dt_external", "dU_dt_external", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "dV_dt_external", "dV_dt_external", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "dS_dt_external", "dS_dt_external", "ocean_hourly_GLS_3", "all", "mean", "none", 2
+# "ocean_model",   "dT_dt_external", "dT_dt_external", "ocean_hourly_GLS_3", "all", "mean", "none", 2

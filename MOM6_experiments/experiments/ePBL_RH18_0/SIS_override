@@ -1,0 +1,10 @@
+! Blank file in which we can put "overrides" for parameters
+REENTRANT_X=True
+REENTRANT_Y=True
+
+#override GRID_CONFIG = "cartesian"
+#override AXIS_UNITS = "kilometers"
+#override SOUTHLAT = 0
+#override LENLAT = 25
+#override WESTLON = 0
+#override LENLON = 25

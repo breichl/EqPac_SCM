@@ -1,0 +1,11 @@
+#modules to use intel-classic/2022.0.2 on ncrc5
+module use -a /ncrc/home2/fms/local/modulefiles
+module unload cray-netcdf cray-hdf5 fre
+module unload PrgEnv-pgi PrgEnv-intel PrgEnv-gnu PrgEnv-cray
+module load PrgEnv-intel/8.3.3
+module unload intel intel-classic intel-oneapi
+module load intel-classic/2022.0.2
+module load cray-hdf5/1.12.2.3
+module load cray-netcdf/4.9.0.3
+module load libyaml/0.2.5
+module unload cray-libsci

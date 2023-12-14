@@ -1,0 +1,27 @@
+[submodule "MOM6_experiments/src/FMS"]
+	path = MOM6_experiments/src/FMS
+	url = git@github.com:NOAA-GFDL/FMS.git
+[submodule "MOM6_experiments/src/MOM6"]
+	path = MOM6_experiments/src/MOM6
+	url = git@github.com:NOAA-GFDL/MOM6.git
+[submodule "MOM6_experiments/src/SIS2"]
+	path = MOM6_experiments/src/SIS2
+	url = git@github.com:NOAA-GFDL/SIS2.git
+[submodule "MOM6_experiments/src/atmos_null"]
+	path = MOM6_experiments/src/atmos_null
+	url = git@github.com:NOAA-GFDL/atmos_null.git
+[submodule "MOM6_experiments/src/FMScoupler"]
+	path = MOM6_experiments/src/coupler
+	url = git@github.com:NOAA-GFDL/FMScoupler.git
+[submodule "MOM6_experiments/src/ice_param"]
+	path = MOM6_experiments/src/ice_param
+	url = git@github.com:NOAA-GFDL/ice_param.git
+[submodule "MOM6_experiments/src/icebergs"]
+	path = MOM6_experiments/src/icebergs
+	url = git@github.com:NOAA-GFDL/icebergs.git
+[submodule "MOM6_experiments/src/land_null"]
+	path = MOM6_experiments/src/land_null
+	url = git@github.com:NOAA-GFDL/land_null.git
+[submodule "MOM6_experiments/src/mkmf"]
+	path = MOM6_experiments/src/mkmf
+	url = git@github.com:mom-ocean/mkmf.git

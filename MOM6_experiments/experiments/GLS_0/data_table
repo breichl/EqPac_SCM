@@ -1,0 +1,11 @@
+ "ICE" , "runoff"        , ""      , "", "none", 0.0
+ "ICE" , "calving"       , ""            , ""                             , "none"  ,  0.0
+ "ICE", "dhdt",               "",         "",                        "none",      0.0
+ "ICE", "dedt",               "",         "",                        "none",      0.0
+ "ICE", "drdt",               "",         "",                        "none",      0.0
+ "ICE", "q_flux","","","none",0.
+ "OCN", "salt_flux","salt_flux","./INPUT/DW_surfflux.nc","none",1.0
+ "ICE", "t_flux","t_flux","./INPUT/DW_surfflux.nc","none",1.0
+ "ICE", "u_flux","u_flux","./INPUT/DW_surfflux.nc","none",1.0
+ "ICE", "v_flux","v_flux","./INPUT/DW_surfflux.nc","none",1.0
+ "ICE", "lw_flux","","","none",0.0

@@ -1,0 +1,17 @@
+! Blank file in which we can put "overrides" for parameters
+#override DT = 60.
+#override DT_THERM=60.
+
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
+#override MAXIMUM_DEPTH = 108.
+#override NK=216
+
+#override BBL_EFFIC = 0.0
+
+#override USE_JACKSON_PARAM = False
+#override ENERGETICS_SFC_PBL = False
+#override USE_KPP = False
+#override USE_GOTM = True
+
+#override KD=1.e-5
+#override KV=1.e-5

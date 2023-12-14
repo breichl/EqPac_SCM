@@ -1,0 +1,40 @@
+! Blank file in which we can put "overrides" for parameters
+#override DT = 60.
+#override DT_THERM=60.
+
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
+#override MAXIMUM_DEPTH = 108.
+#override NK=216
+#override BBL_EFFIC = 0.0
+
+#override USE_JACKSON_PARAM = True
+#override ENERGETICS_SFC_PBL = True
+#override USE_KPP = False
+#override USE_GOTM = False
+
+#override USE_RESTRICTIVE_TOLERANCE_CHECK = True
+#override MAX_RINO_IT = 50
+#override MAX_KAPPA_SHEAR_IT = 50
+#override KAPPA_SHEAR_TOL_ERR = 0.1
+#override PRANDTL_TURB = 1.0
+#override RINO_CRIT = 0.25
+
+#override KD=1.e-5
+#override KV=1.e-5
+
+#override EPBL_MSTAR_SCHEME = "REICHL_H18"
+#override MSTAR_CONV_ADJ = 0.66
+#override EPBL_VEL_SCALE_SCHEME = "REICHL_H18"
+#override EPBL_VEL_SCALE_FACTOR = 0.5477
+#override VSTAR_SURF_FAC = 1.8258
+#override LT_MOD_LAC4 = 0.8
+#override LT_MOD_LAC5 = 0.8
+#override RH18_MSTAR_CN3 = -6.0
+#override WSTAR_USTAR_COEF = 15.
+#override MSTAR = 0.0
+#override LT_ENHANCE_COEF = 0.1056
+#override LT_ENHANCE_EXP = -1.
+#override LA_DEPTH_RATIO = 0.2
+#override MIX_LEN_EXPONENT = 2.
+#override RH18_MSTAR_CS1 = 0.2
+#override MSTAR_CAP = 1.25
