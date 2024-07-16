@@ -5,7 +5,7 @@ OM4_SIS2_cgrid_05
 
 # "ocean_model",   "thkcello",    "thkcello",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
  "ocean_model",   "uo",          "uo",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
-# "ocean_model",   "vo",          "vo",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
+ "ocean_model",   "vo",          "vo",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
 # "ocean_model",   "umo",         "umo",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
 # "ocean_model",   "vmo",         "vmo",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
  "ocean_model",   "thetao",      "thetao",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
@@ -15,10 +15,11 @@ OM4_SIS2_cgrid_05
 # "ocean_model",   "SSS",      "SSS",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
 # "ocean_model",   "SSH",      "SSH",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
 # "ocean_model",   "thetaoga",      "thetaoga",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
-# "ocean_model",   "so",          "so",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
-# "ocean_model",   "rhopot0",   "rhopot0",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
+ "ocean_model",   "so",          "so",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
+ "ocean_model",   "rhopot0",   "rhopot0",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
 # "ocean_model",   "rsdo",      "rsdo",         "ocean_hourly_GLS_0",        "all", "mean", "none",2
-# "ocean_model",   "Kd_interface","Kd_interface", "ocean_hourly_GLS_0", "all", "mean", "none", 2
+ "ocean_model",   "Kd_interface","Kd_interface", "ocean_hourly_GLS_0", "all", "mean", "none", 2
+ "ocean_model",   "Kv_v","Kv_v", "ocean_hourly_GLS_0", "all", "mean", "none", 2
 # "ocean_model",   "Kv_shear","Kv_shear", "ocean_hourly_GLS_0", "all", "mean", "none", 2
 # "ocean_model",   "TKE_shear","TKE_shear", "ocean_hourly_GLS_0", "all", "mean", "none", 2
 # "ocean_model",   "Kd_shear","Kd_shear", "ocean_hourly_GLS_0", "all", "mean", "none", 2
